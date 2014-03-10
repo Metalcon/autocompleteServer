@@ -1,17 +1,28 @@
-# ignore Maven output directory
-target/
-# ignore Eclipse files
-.classpath
+*.pydevproject
 .project
-# ignore Eclipse directories
-.metadata/
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
 .settings/
-bin/
+.loadpath
 
-# Java class files
-*.class
+# External tool builders
+.externalToolBuilders/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PDT-specific
+.buildpath
+
+target/
+*/target/*
+*/target/**
+/bin
